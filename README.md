@@ -2,3 +2,20 @@
 
 
 
+For testing:
+
+http://localhost:4000/
+```
+
+query GetBooks {
+  books {
+    title
+    author
+  }
+  data {
+    id
+    title
+  }
+}
+
+```
